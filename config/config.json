@@ -1,0 +1,40 @@
+{
+    "development": {
+        "username": "postgres@metricsdevtest02",
+        "password": "cm123123123*1",
+        "database": "website",
+        "host": "metricsdevtest02.postgres.database.azure.com",
+        "dialect": "postgres",
+        "rejectUnauthorized": false,
+        "logging": false,
+        "dialectOptions": {
+            "ssl": true
+        }
+    },
+    "test": {
+        "username": "postgres@metricsdevtest02",
+        "password": "cm123123123*1",
+        "database": "website",
+        "rejectUnauthorized": false,
+        "host": "metricsdevtest02.postgres.database.azure.com",
+        "dialect": "postgres",
+        "logging": false,
+
+        "dialectOptions": {
+            "ssl": true
+        }
+    },
+    "production": {
+        "username": "postgres@metricsdevtest02",
+        "rejectUnauthorized": false,
+        "password": "metricsdevtest02.postgres.database.azure.com",
+        "database": "website",
+        "host": "104.43.208.30",
+        "dialect": "postgres",
+        "logging": false,
+
+        "dialectOptions": {
+            "ssl": true
+        }
+    }
+}
