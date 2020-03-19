@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
+const PORT =process.env.port || 3000
 let secretKey = null;
 let emailMaster = null;
 //"6LeEe-AUAAAAAEWTxAlBnbKgzvUmORdyxnRxeYml"
@@ -134,7 +135,7 @@ app.post("/webmail", async (req, res) => {
   });
 });
 
-app.listen(8083, () => {
+app.listen(PORT, () => {
   console.log("server is now up!");
 });
 
