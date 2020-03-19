@@ -136,7 +136,7 @@ app.post("/webmail", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log("server is now up!");
+  console.log("server is now up!" ,PORT);
 });
 
 function validarEmail(valor) {
