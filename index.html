@@ -46,7 +46,7 @@
           const lastName = document.querySelector("#last-name").value;
           const captcha = token;
           axios
-            .post("http://localhost:8083/webmail", {
+            .post("/webmail", {
               firstName: firstName,
               lastName: lastName,
               captcha: captcha
