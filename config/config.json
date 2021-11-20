@@ -1,9 +1,9 @@
 {
     "development": {
         "username": "postgres@metricsdevtest02",
-        "password": "cm123123123*1",
+        "password": "123456",
         "database": "website",
-        "host": "metricsdevtest02.postgres.database.azure.com",
+        "host": "localhost",
         "dialect": "postgres",
         "rejectUnauthorized": false,
         "logging": false,
@@ -12,11 +12,11 @@
         }
     },
     "test": {
-        "username": "postgres@metricsdevtest02",
-        "password": "cm123123123*1",
+        "username": "plocalhost",
+        "password": "password",
         "database": "website",
         "rejectUnauthorized": false,
-        "host": "metricsdevtest02.postgres.database.azure.com",
+        "host": "plocalhost",
         "dialect": "postgres",
         "logging": false,
 
@@ -25,11 +25,11 @@
         }
     },
     "production": {
-        "username": "postgres@metricsdevtest02",
+        "username": "root",
         "rejectUnauthorized": false,
-        "password": "metricsdevtest02.postgres.database.azure.com",
+        "password": "395951",
         "database": "website",
-        "host": "104.43.208.30",
+        "host": "0.0.0",
         "dialect": "postgres",
         "logging": false,
 
